@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nicholasjackson/all-things-microservices/grpc-curl/protos/service"
+	"grpc-curl/protos/service"
 
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"

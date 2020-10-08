@@ -1,7 +1,6 @@
 .PHONY: protos
 
 protos:
-	 protoc -I protos/ protos/service.proto --go_out=plugins=grpc:protos/service
+	protoc -I protos/ protos/currency.proto --go-grpc_out=protos/currency
 
-run_service:
-	go run main.go
+
