@@ -1,8 +1,6 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/golang/protobuf/ptypes/proto";
-
 service Currency {
     // GetRate returns the exchange rate for the two provided currency codes 
     rpc GetRate(RateRequest) returns (RateResponse);
