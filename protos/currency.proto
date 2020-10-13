@@ -1,7 +1,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/monkrus/grpc-from0;grpc_from0";
+option go_package = "github.com/golang/protobuf/ptypes/proto";
 
 service Currency {
     // GetRate returns the exchange rate for the two provided currency codes 
